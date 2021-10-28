@@ -1,0 +1,55 @@
+#quote-box {
+  width: 40%;
+  height: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+}
+
+a {
+  width: 150px;
+  line-height: 40px;
+  background-color: blue;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+button:hover {
+  background-color: lightgrey;
+  color: blue;
+}
+
+a:hover {
+  background-color: lightgrey;
+  color: blue;
+}
+
+p {
+  text-align: right;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+cite {
+  font-size: 1.1rem;
+}
