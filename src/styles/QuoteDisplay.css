@@ -9,6 +9,10 @@
   border-radius: 20px;
 }
 
+#tweet-quote {
+  visibility: hidden;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
